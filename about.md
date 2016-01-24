@@ -3,10 +3,127 @@ layout: page
 title: About
 ---
 
-Hello.
+Rory M. Flynn: Math Major, Chemistry Minor,Strong Skills In Computer Science.
+   
+   
+Education
+*********
 
-The main purpose of this theme is to be as simple as it could be, so you can focus on writing your stuffs. This is your About page. You may describe about yourself here; who you are, what are you currently doing, share some of your projects, your social links and how people can contact you, etc.
+>   2014 - 2015, Metropolitan State University of Denver
+    
+        Graduated December 11, 2015: Bachelors of Science in Mathematics
+        Concentration: Probability and Statistics
+        Minor: Chemistry
+        GPA: 3.52
+    
+>   2011 - 2013, Community College of Denver
+    
+        Graduated: Associates of Science
+    
+    
+>   Completed Courses Include
 
-**Just write thing that matters..**
+        Regression and Computational Statistics
+        Probability Theory
+        Statistical Theory
+        Design of Experiments
 
-Enjoy!
+        
+Awards
+******
+
+    2015 - Metro Scholars Award: Metropolitan State University of Denver
+    2015 - Provost’s Honor Roll: Metropolitan State University of Denver
+    2015 - Velayas Scholarship : Metropolitan State University of Denver
+    2015 - Colorado Merit Scholarship: Metropolitan State University of Denver
+    2013 - Deans List: Community College of Denver
+    
+    
+Work Experience
+***************
+
+>    May 2014 - January 2015, Recondo Technology
+     
+        As a Cloud Operations Intern: 
+            Created various administrative programs using Ruby, BASH, Power shell, and Puppet scripts, then implemented those scripts in a staging environment. Responsibilities included maintaining stage and prod Linux servers, implemented hardware and software changes, and managed customer data.
+
+>    May 2012 to February of 2013, Office Depot
+       
+        Operated Printing Equipment, basic store maintenance, sold and repaired windows 7/8 computers, and android tablets, and operated the cash register.
+        (303) 831 0999
+
+>    June 2011 to October of 2011, King Soopers
+        
+        Courtesy Clerk, Maintenance and Checkout
+        Fort Collins: (970) 267-5100
+        Denver: (303) 832-5262
+
+>    June 2009 to August 2009, Far Away Creations
+        
+        costume producer(Producing various Star Wars costumes)
+        info@farawaycreations.com
+        
+        
+        
+Skills
+******
+
+
+>    Platforms
+    
+        Red Hat/Fedora
+        Android
+        Windows(7,8,10)
+        Debian/Ubuntu
+        OpenSuse
+        
+>    Programming Languages
+    
+        Strong Knowledge of:
+            
+            R
+            BASH
+            Java / Processing
+            Ruby
+            SAS(Certified Base Programmer)
+            
+        Experienced With:
+        
+            PHP
+            Puppet
+            Python
+            Java/coffyScript
+            PowerShell
+            some SQL
+        
+            Any thing else I will learn quickly.
+        
+>    Office Software
+    
+        Microsoft Office(word,excel,lync)    
+        Google Office
+        Open/Libre Office
+        Adobe Creative Suite
+        
+>    Other Software
+    
+        Git
+        SVN
+        TEX/ LaTEX
+        Vim
+        Eclipse
+        AWS
+
+
+Recent Projects and Activities
+******************************
+
+    Fall 2015: Assisted in the MSU Denver climate survey analysis.
+    Summer 2015: Attended Joint Statistical Meeting in Seattle Washington as student travel group leader.
+    Spring 2015: Presented work in android application design for biomedical research at the MSU Denver 2015 undergraduate research conference.
+    Spring 2015: Conducted senior undergraduate research in machine learning, using data from the Colorado mosquito survey.
+    Spring 2015: Advised the MSU Denver psychology department on statisticalmethods.
+
+
+References
+**********
