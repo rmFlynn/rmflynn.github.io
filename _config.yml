@@ -1,19 +1,19 @@
 # Site Info
 title:              "Rory M. Flynn"
 description:        "Math Major, Chemistry Minor,Strong Skills In Computer Science."
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+#google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
+#google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
 # Author Info
 author_name:        "RMFlynn"
-author_email:       hnrird@gmail.com
+author_email:       rmfofco@gmail.com
 author_gravatar:    6cb484b59bf0e30123a6f6dd687bb862 # Gravatar md5 hash
-twitter_username:   
+#twitter_username:   
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           America/Denver # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
 highlighter:        pygments
