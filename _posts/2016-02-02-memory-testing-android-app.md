@@ -10,3 +10,4 @@ updated: 2016-02-02 15:56
 ![Minion](http://imgur.com/57rYGGt)
 ![Minion](http://imgur.com/hmHXysy)
 ![Minion](http://imgur.com/zfKf92H)
+![Minion2](http://octodex.github.com/images/minion.png)
