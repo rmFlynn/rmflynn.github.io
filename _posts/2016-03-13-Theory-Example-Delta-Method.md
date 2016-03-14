@@ -4,7 +4,7 @@ updated: 2016-01-24 15:56
 ---
 
 
-“\\( 2+2 \\)$” 
+\\( 2+2 \\)$
 
 
 Let’s derive the variance of the death density function, as estimated
