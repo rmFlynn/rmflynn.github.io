@@ -7,7 +7,8 @@ updated: 2016-01-24 15:56
 \\( 2+2 \\)$
 
 
-Let’s derive the variance of the death density function, as estimated
+Let’s derive the variance\\( 2+2 \\)$
+ of the death density function, as estimated
 from the life table. In other words, the variance of:
 $$\hat f(t_{mj})=\frac{ \hat S(t_{j-1}) \hat q(j) }{t_j-t_{j-1}}$$
 
@@ -18,6 +19,11 @@ $\frac{ 1 }{t_j-t_{j-1}}$.
 We now want to apply the delta method, but the process will be easier if
 take the ln of the function first
 $$\ln[\hat f(t_{mi})] = \ln[\frac{\hat S(t_{j-1}) \hat q(j)}{t_j-t_{j-1}}]$$.
+
+\\( 2+2 \\)$
+
+\\[ 2+2 \\]
+
 
 The delta method provides the approximation
 $\hat{Var}[f(x)]=f'(\mu)\sigma^2$.
