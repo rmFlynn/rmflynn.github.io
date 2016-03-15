@@ -1,94 +1,39 @@
-<HTML>
-<HEAD>
-<TITLE>Calculator</TITLE>
+var quiz = [
+    {
+        "question"      :   "Q1: Who came up with the theory of relativity?",
+        "image"         :   "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
+        "choices"       :   [
+                                "Sir Isaac Newton",
+                                "Nicolaus Copernicus",
+                                "Albert Einstein",
+                                "Ralph Waldo Emmerson"
+                            ],
+        "correct"       :   "Albert Einstein",
+        "explanation"   :   "Albert Einstein drafted the special theory of relativity in 1905.",
+    },
+    {
+        "question"      :   "Q2: Who is on the two dollar bill?",
+        "image"         :   "http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/US_%242_obverse-high.jpg/320px-US_%242_obverse-high.jpg",
+        "choices"       :   [
+                                "Thomas Jefferson",
+                                "Dwight D. Eisenhower",
+                                "Benjamin Franklin",
+                                "Abraham Lincoln"
+                            ],
+        "correct"       :   "Thomas Jefferson",
+        "explanation"   :   "The two dollar bill is seldom seen in circulation. As a result, some businesses are confused when presented with the note.",
+    },
+    {
+        "question"      :   "Q3: What event began on April 12, 1861?",
+        "image"         :   "",
+        "choices"       :   [
+                                "First manned flight",
+                                "California became a state",
+                                "American Civil War began",
+                                "Declaration of Independence"
+                            ],
+        "correct"       :   "American Civil War began",
+        "explanation"   :   "South Carolina came under attack when Confederate soldiers attacked Fort Sumter. The war lasted until April 9th 1865.",
+    },
 
-<SCRIPT language="JavaScript"> 
- 
-function calculate() {
- 
-A = document.frmOne.txtFirstNumber.value
-B = document.frmOne.txtSecondNumber.value
- 
-A = Number(A)
-B = Number(B)
-C = (A + B)
-document.frmOne.txtThirdNumber.value = C
-}
- 
-function calculate2() {
- 
-A = document.frmOne.txtFirstNumber.value
-B = document.frmOne.txtSecondNumber.value
- 
-A = Number(A)
-B = Number(B)
-C=(A* B)
-document.frmOne.txtThirdNumber.value = C
-}
- 
-function calculate3() {
- 
-A = document.frmOne.txtFirstNumber.value
-B = document.frmOne.txtSecondNumber.value
- 
-A = Number(A)
-B = Number(B)
-C=(A/B)
-document.frmOne.txtThirdNumber.value = C
-}
- 
-function calculate4() {
- 
-A = document.frmOne.txtFirstNumber.value
-B = document.frmOne.txtSecondNumber.value
- 
-A = Number(A)
-B = Number(B)
-C=(A-B)
-document.frmOne.txtThirdNumber.value = C
-
-}
-
-</SCRIPT>
-
-</HEAD>
-<BODY>
-<p><b>Mathematical Calculator.</b></p>
-
-
-<FORM NAME = frmOne> 
-            Number One: 
-            <INPUT TYPE = Text NAME = txtFirstNumber SIZE = 5 value =""> 
-            Number Two: 
-            <INPUT TYPE = Text NAME = txtSecondNumber SIZE = 5 value =""> 
-            <P> Total: 
-              <INPUT TYPE = Text NAME = txtThirdNumber SIZE = 5 value = ""> 
-            <P> 
-              <Input Type = Button NAME = b1 VALUE = "Add Numbers" onClick = calculate()> 
-              <Input Type = Button NAME = b2 VALUE = "Multiply Numbers" onClick = calculate2()> 
-              <Input Type = Button NAME = b3 VALUE = "Divide Numbers" onClick = calculate3()> 
-              <Input Type = Button NAME = b4 VALUE = "Subtract Numbers" onClick = calculate4()> 
-</FORM> 
-
-<br>
-
-<INPUT TYPE = Button VALUE = "Red Background" Onclick = "document.bgColor = 'Red'">
-
-<INPUT TYPE = Button VALUE = "Blue Text" Onclick = "document.fgColor = 'Blue'">
-
-<INPUT TYPE = Button VALUE = "Black Text" Onclick = "document.fgColor = 'Black'">
-
-<INPUT TYPE = Button VALUE = "White Text" Onclick = "document.fgColor = 'White'">
-
-<INPUT TYPE = Button VALUE = "Green Background" Onclick = "document.bgColor = 'Green'">
-
-<INPUT TYPE = Button VALUE = "White Background" Onclick = "document.bgColor = 'White'">
-
-<INPUT TYPE = Button VALUE = "Black Background" Onclick = "document.bgColor = 'Black'">
-
-<INPUT TYPE = Button VALUE = "Yellow Background" Onclick = "document.bgColor = 'Yellow'">
-
-<p><b><center>Written by Gheter</center></b></p>
-
-</BODY>
-</HTML>
+];
