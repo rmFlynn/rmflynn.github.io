@@ -5,7 +5,7 @@ updated: 2016-01-24 15:56
 
 
 
-{% include dist-test.html %}
+{% include simple-javascript-quiz/index.html %}
 
 
 <script src="/assets/js/example.js"></script>
