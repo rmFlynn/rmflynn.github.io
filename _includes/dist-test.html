@@ -1,107 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Quiz</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<script type="text/javascript">
+var answer_list = [
+    ['False'],
+    ['body,hips,knees']
+
+// Note: No comma after final entry
+];
+
+var response = [];
+
+function getCheckedValue(radioObj) {
+    if(!radioObj)
+        return "";
+    var radioLength = radioObj.length;
+    if(radioLength == undefined)
+        if(radioObj.checked)
+            return radioObj.value;
+        else
+            return "";
+    for(var i = 0; i < radioLength; i++) {
+        if(radioObj[i].checked) {
+            return radioObj[i].value;
+        }
+    }
+    return "";
+}
+
+function setAnswer(question, answer) {
+    response[question] = answer;
+}
+
+function CheckAnswers() {
+    var correct = 0;
+    var resp, answ;
+    for (var i = 0; i < answer_list.length; i++) {
+        resp = response[i].toString();
+        resp = resp.toLowerCase();
+        answ = answer_list[i].toString();
+        answ = answ.toLowerCase();
+//#################################################################################################
+        if (resp == answ) {
+            correct++;
+            if(i==0){
+                document.forms[0].a1c.style.backgroundImage="url('correct.gif')";
+                document.forms[0].a1c.value = "";
+            }
+            else{
+                document.forms[0].a1d.style.backgroundImage="url('correct.gif')";
+                document.forms[0].a1d.value = "";
+            }
+        }
+        else{
+            if(i==0){
+                document.forms[0].a1c.style.backgroundImage = "url('incorrect.gif')";
+                document.forms[0].a1c.value = " ANS: False. Position the head snugly against the top bar of the frame and then bring the foot board to the infant's feet.";
+            }
+            else{
+                document.forms[0].a1d.style.backgroundImage = "url('incorrect.gif')";
+                document.forms[0].a1d.value = " ANS: " + answ;
+            }
+//###################################################################################################
+        }
+    }
+    document.writeln("You got " + correct + " of " + answer_list.length + " questions correct!");
+}
+</script>
+</head>
 <body>
-  <h2 class="quizHeader">Take a Quiz!</h2>
-  
-	<table style="width:583px">
-	<tr>
-	  <td>
-	  	<div>
-	  		<p class="question">1. Quiz question #1</p>
-
-	    	<ul>
-	    	<input class="answer" type="radio" name="q1" value="1">
-	        <label id="correctString1">correct answer 1</label>
-	    	<br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>wrong answer</label>
-    		</ul>
-	  	</div>
-	  </td>
-	  <td>
-	  	<div>
-	  		<p class="question">2. Quiz question #2</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="1">
-	        <label id="correctString2">correct answer 2</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>wrong answer</label>
-	    	</ul>
-	  	</div>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	  	<div>
-	  		<p class="question">3. Quiz question #3</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">correct answer 3</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>wrong answer</label>
-	    	</ul>
-		</div>
-	  </td>
-	  <td>
-	  	<div>
-	  		<p class="question">4. Quiz question #4</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="1">
-	        <label id="correctString4">correct answer 4</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>wrong answer</label>
-	        <br>
-	        <input class="answer" type="radio" name="q4" value="0">
-	        <label>wrong answer</label>
-    		</ul>
-	  	</div>
-	  </td>
-	</tr>
-	</table>
-<br/>
-  <div class="submitter">
-          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
-          type="submit" value="Submit" />
-    </div>
-  
-<!--show only wrong answers on submit-->
-    <div class="quizAnswers" id="correctAnswer1"></div>
-	    <div class="quizAnswers" id="correctAnswer2"></div>
-    <div class="quizAnswers" id="correctAnswer3"></div>
-    <div class="quizAnswers" id="correctAnswer4"></div>
-
-<!--show score upon submit-->
-    <div>
-    	<h2 class="quizScore" id="userScore"></h2>
-    </div>
-	</div>
-
-<script src="js/dist-test.js"></script>
-
-
+<form action="" method="post">
+<div>
+<b>1. When measuring height/length of a child who cannot securely stand, place the infant such that his or her feet are flat against the foot board.</b><br />
+<label><input type="radio" name="question0" value="True" />True</label>
+<label><input type="radio" name="question0" value="False" />False</label>
+<br />
+<textarea rows="2" cols="85" name="a1c" style="background-repeat:no-repeat"></textarea>
+<br />
+<b>2. When taking a supine length measurement, straighten the infant's
+<input type="text" name="question1_a" size="10" />, 
+<input type="text" name="question1_b" size="10" />, and 
+<input type="text" name="question1_c" size="10" />.</b>
+<br />
+<textarea rows="2" cols="85" name="a1d" style="background-repeat:no-repeat"></textarea>
+<br />
+<input type="button" name="check" value="Check Answers" onclick="setAnswer(0,getCheckedValue(document.forms[0].question0));setAnswer(1,[document.forms[0].question1_a.value,document.forms[0].question1_b.value,document.forms[0].question1_c.value]);CheckAnswers();" />
+</div>
+</form>
 </body>
+</html>
