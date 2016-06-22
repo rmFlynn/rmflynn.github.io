@@ -1,5 +1,5 @@
 ---
-title: Deriving Approximate Variance With The Delta Method
+title: Death Density Function & The Delta Method
 updated: 2016-01-24 15:56
 ---
 
