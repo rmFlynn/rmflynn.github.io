@@ -1,9 +1,9 @@
 ---
 title: Death Density Function & The Delta Method
-updated: 2016-01-24 15:56
+updated: 2016-03-13 15:56
 ---
 
-
+When the 
 
 
 Let’s derive the variance
