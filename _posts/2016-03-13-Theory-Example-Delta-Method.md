@@ -3,34 +3,9 @@ title: Death Density Function & The Delta Method
 updated: 2016-03-13 15:56
 ---
 
-When the varianc of a distrobution is not easly durived or not atall availible the delta method can be an efective whay to estimate it. One example that you will run into in time to event analisis is the variance acoiated with the deat dencity function, the form of it that you see in actuarial tables AKA:  
-
-$$\hat f(t_{mj})=\frac{ \hat S(t_{j-1}) \hat q(j) }{t_j-t_{j-1}}$$
-
-Note that $$\hat f(t_{mj})$$ is the product of the functions
-$$\hat S(t_{j-1})$$ and $$\hat q(j)$$, multiplied by the constant
-$$\frac{ 1 }{t_j-t_{j-1}}$$.
 
 
-We now want to apply the delta method, but the process will be easier if
-take the ln of the function first
-
-$$\ln[\hat f(t_{mi})] = \ln[\frac{\hat S(t_{j-1}) \hat q(j)}{t_j-t_{j-1}}]$$.
-
-
-
-The delta method provides the approximation
-
-$$\hat{Var}[f(x)]=f'(\mu)\sigma^2$$.
-
-Thus order to apply the delta method we need to derive and combine the
----
-title: Death Density Function & The Delta Method
-updated: 2016-03-13 15:56
----
-
-
-When the variance of a distribution is not easily derived or not at all available the delta method can be an effective way to estimate it. One example that you will run into in time to event analysis is the variance associated with the death density function, the form of it that you see in actuarial tables AKA:  
+When the variance of a distribution is not available or not easily derived, the delta method can be an effective way to estimate it. One example that you will run into in time to event analysis is the variance associated with the death density function, the form of it that you see in actuarial tables AKA:  
 
 
 $$\hat f(t_{mj})=\frac{ \hat S(t_{j-1}) \hat q(j) }{t_j-t_{j-1}}$$
@@ -41,17 +16,11 @@ $$\hat S(t_{j-1})$$ and $$\hat q(j)$$, multiplied by the constant
 $$\frac{ 1 }{t_j-t_{j-1}}$$.
 
 
-
-
 We now want to apply the delta method, but the process will be easier if
 take the ln of the function first
 
 
 $$\ln[\hat f(t_{mi})] = \ln[\frac{\hat S(t_{j-1}) \hat q(j)}{t_j-t_{j-1}}]$$.
-
-
-
-
 
 
 The delta method provides the approximation
@@ -138,5 +107,8 @@ $$\hat{Var}(\hat f(t_{mi})) = \left[ \frac{ \hat S(t_{j-1}) \hat q(j) }{t_j-t_{j
 
 
 Thus we have derived the variance of the death density.
+
+
+
 
 
