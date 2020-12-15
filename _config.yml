@@ -32,8 +32,6 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 gems:
   - jekyll-sitemap
 
-
-
 compress_html:
     clippings:      all
     ingore:
@@ -45,17 +43,13 @@ defaults:
       path:         ""
     values:
       layout:       "null"
-   -
-     scope:
-       type:         "pages"
-     values:
-       layout:       "page"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
   -
     scope:
       type:         "posts"
     values:
       layout:       "post"
-
-      #collections:
-      #        materials:
-      #                name: True
