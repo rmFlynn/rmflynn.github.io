@@ -45,16 +45,16 @@ defaults:
       path:         ""
     values:
       layout:       "null"
-      #   -
-      #     scope:
-      #       type:         "pages"
-      #     values:
-      #       layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+   -
+     scope:
+       type:         "pages"
+     values:
+       layout:       "page"
+       # -
+       #   scope:
+       #     type:         "posts"
+       #   values:
+       #     layout:       "post"
 
       #collections:
       #        materials:
