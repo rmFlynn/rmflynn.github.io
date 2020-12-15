@@ -1,0 +1,155 @@
+---
+name: My Resume
+---
+
+### This is the online version of my resume. [Click here to download a PDF version](/download/Rory_Flynn_Resume.pdf)
+
+## Education
+
+### Masters of Computer Science
+GPA
+ : 3.867
+
+School
+ : University of Colorado, Denver
+
+Concentration
+ : Data Science in Biomedicine
+
+Time line
+ : Graduated: Dec, 2020
+
+### Bachelors of Science in Mathematic
+GPA
+ : 3.53
+
+School
+ : Metropolitan State University of Denver
+
+Concentration
+ : Probability and Statistics
+
+Minor
+ : Chemistry
+
+Time line
+ :  Graduated December 11, 2015
+
+
+### Associates of Science
+School
+ : Community College of Denver
+Time line
+ : Graduated December 15, 2013:
+
+## Employment
+
+### University of Colorado Denver - Machine Learning Graduate Apprentice (Jan 2020 - Present)
+
+Created documentation and tools to securely manage and analyze a large collection of GWAS data.
+Designed an original algorithm, implemented in Keras, to address the challenge of imbalanced phenotype
+in genetic data.
+
+Utilized HPC resources to build, fit, and evaluate custom and off the shelf models.
+
+### University of Colorado Denver - Teaching Assistant (Algorithms) (May 2019 - Dec 2019)
+
+Responsible for assisting students with class comprehension and programming tasks, grading, and other
+responsibilities.
+
+### National Renewable Energy Lab (NREL) - Graduate Intern (May 2019 - Aug 2019)
+
+Created a complex python package for transforming, arranging, and converting energy data sets to facilitate
+NREL research.
+
+### BBC Research and Consulting - Research Associate (Mar 2016 - Aug 2018)
+
+Collected, managed, and analyzed survey data for economic and social studies.
+
+Created complex web applications for data entry, tracking, and manipulation using the R-shiny tool kit.
+
+Automated statistical analyzes, including multi-variable regression, ANOVA, and Monte Carlo Simulation.
+
+Worked with large relational databases, cleaning, proofing, and analyzing the data therein.
+
+### Recondo Technology - Cloud Operations Intern (May 2014 - January 2015)
+
+Created various administrative programs using Ruby, BASH, Power Shell, and Puppet scripts.
+
+Tested scripts in a staging environment, and implemented them in production.
+
+Maintained stage and prod Linux servers, and managed customer data.
+
+
+### Office Depot May (2012 to February 2013)
+
+Operated printing equipment and cash register.
+
+Performed basic store maintenance tasks.
+
+
+### King Soopers (June 2011 to October 2011)
+
+Courtesy Clerk, Maintenance and Checkout
+
+### Far Away Creations (June 2009 to August 2009)
+
+Costume producer(Producing various Star Wars costumes)
+
+## Skills
+
+### Programming Languages
+
+**Python (advanced)** 5+ years of heavy use
+
+**C++ (intermediate)** 3+ years of use
+
+**R (intermediate)** 5+ years of use
+
+**BASH (proficient)** 3+ years of use
+
+**SQL (intermediate)** 4+ years of use
+
+### Operating Systems
+
+**Linux (advanced)** 9+ years heavy use
+
+Advanced understanding of the Linux tool kit, file structure, and ecosystem. Highly effective in a command
+line environment, with a long history using Docker, Vi/Vim, ssh and other system tools.
+
+**Windows: (intermediate)** 9+ years of use
+
+Troubleshooting and programming, using tools like PowerShell, ODBC, and VBA. Looking forward to using WSL.
+
+### Disciplines
+
+Machine Learning
+
+Genetic Data Analysis
+
+Data visualization
+
+GUI programming
+
+### Interests
+
+Generative AI
+
+Protein Synthesis
+
+Active Learning
+
+Speech Recognition
+
+Genetics
+
+Linux Development
+
+Guided Evolution
+
+Meta learning
+
+## References
+
+
+References available upon request.
