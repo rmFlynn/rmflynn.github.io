@@ -1,6 +1,5 @@
 ---
-title: My Resume
-updated: 2020-9-21 15:56
+name: My Resume
 ---
 
 ### This is the online version of my resume. [Click here to download a PDF version](/download/Rory_Flynn_Resume.pdf)
