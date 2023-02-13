@@ -37,6 +37,17 @@ compress_html:
     ingore:
         envs:       [ "test" ]
 
+collections:
+  sections:
+    output: true
+    order:
+      - My-Resume.md
+      - Masters-Thesis.md
+      - Fun_Projects.md
+      - Programming-Examples.md
+      - Tutorials.md
+
+
 defaults:
   -
     scope:

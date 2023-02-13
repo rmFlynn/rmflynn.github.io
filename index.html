@@ -2,18 +2,28 @@
 layout: default
 ---
 
+<head>
+<style>
+p {text-align: center;}
+div {text-align: center;}
+</style>
+</head>
 <section>
 	<ul>
 
-		{% for post in site.posts %}
+                {% assign ordered_pages = site.sections| sort:"order" %}
+		{% for post in ordered_pages %}
 
 		<li>
-			<div class="post-date">
-				<span>{{ post.date | date: "%b %d, %Y" }}</span>
-			</div>
 			<div class="title">
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				<b><a style="color:#458588"; href="{{ post.url | prepend: site.baseurl
+                                                                     }}">{{
+                                                                             post.title
+                                                                             }}</a></b>
 			</div>
+                        <p> {{ post.blurb}}<br>
+                        <a style="color:#cc241d"; href="{{ post.url }}">Read more...</a><br><br>
+                        </p>
 		</li>
 
 		{% endfor %}
